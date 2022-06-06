@@ -61,4 +61,9 @@ tasks {
     bootJar {
         archiveClassifier.set("all")
     }
+
+    wrapper {
+        gradleVersion = "7.4.2"
+        distributionType = Wrapper.DistributionType.ALL
+    }
 }
